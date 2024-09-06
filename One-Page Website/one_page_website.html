@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<link rel="stylesheet" href="one_page_website.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fishing Enthusiasts</title>
-        <h1>Contact us for information on Fishing!</h1>
-        <p>If you are interested in fishing contact us with the following information.</p>
-    </head>
-    <nav>
-        <ol>
-            <li><a href="https://www.youtube.com/embed/OYjXoE7UtMk?si=OFXVi9hCuD-i1h6k">Fishing video</a></li>
-        </ol>
-    </nav>
-    <body>
-        <img src="sunset-striper.jpg" width=600 height= 400 alt="Picture of a fisherman at sunset with a fish.">
-        <div>
-            <form>
-                <input type="text" id="first Name" placeholder="First Name"><br>
-                <input type="text" id="last Name" placeholder="Last Name"><br>
-                <input type="email" id="email" placeholder="Email"><br>
-                <input type="tel" placeholder="Phone Number"><br>
-                <input type="submit" value="Submit">
-            </form>
+    <h1>Contact us for information on Fishing!</h1>
+    <p>If you are interested in fishing contact us with the following information.</p>
+</head>
+<body>
+        <form>
+            <input type="text" id="first Name" placeholder="First Name">
+            <input type="text" id="last Name" placeholder="Last Name"><br>
+            <input type="email" id="email" placeholder="Email">
+            <input type="tel" placeholder="Phone Number"><br>
+            <input type="submit" value="Submit">
+        </form>
+        <nav>
+            <ol>
+                <li><a href="#fishing-video">Fishing video</a></li> <!-- Link to the video section using an anchor link -->
+            </ol>
+        </nav>
+        
+        <img src="sunset-striper.jpg" width="600" height="400" alt="Picture of a fisherman at sunset with a fish.">
+        
+        <!-- Embedded Video Section -->
+        <div id="fishing-video"> <!-- Add an id for direct linking -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OYjXoE7UtMk?si=OFXVi9hCuD-i1h6k" 
+                    title="Fishing Video" frameborder="0" allowfullscreen>
+            </iframe>
         </div>
-        <div id="https://www.youtube.com/embed/OYjXoE7UtMk?si=OFXVi9hCuD-i1h6k">
-        <h3>Here is a video on how to catch trout:</h3>
-        </div>
-        <section>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/OYjXoE7UtMk?si=OFXVi9hCuD-i1h6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"
-        </section>
-    </body>
-    <footer>
-            <p>Author: Matthew Hannemann</p>
-            &copy;
-    </footer>
+</body>
+<footer>
+    <p>Author: Matthew Hannemann</p>
+    &copy;
+</footer>
+
 </html>

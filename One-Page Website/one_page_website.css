@@ -1,0 +1,22 @@
+/*Changes the body font*/
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px
+}
+
+/*Changes the paragraph and list font*/
+p, li{
+    font-family: "Times New Roman", Times, serif;
+}
+
+/*input styling*/
+input {
+    width: 200px; /* Sets the width of the input fields */
+    margin: 10px; /* Adds margin between the input fields */
+    border: 2px solid #ccc; /* Sets the border of the input fields */
+    border-radius: 5px; /* Rounds the corners of the input fields */
+}
+
+li{
+    list-style-type: none;
+}
